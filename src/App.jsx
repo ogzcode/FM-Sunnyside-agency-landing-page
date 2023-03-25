@@ -3,6 +3,7 @@ import Header from './components/Header/Header';
 import Main from './components/Main/Main';
 import TestimonialSection from './components/Testimonial/TestimonialSection';
 import ImageGallery from "./components/ImageGallery";
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       <Header />
       <Main />
       <TestimonialSection />
-      <ImageGallery/>
+      <ImageGallery />
+      <Footer />
     </div>
   )
 }
