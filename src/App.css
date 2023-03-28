@@ -33,3 +33,13 @@
     opacity: .3;
     z-index: -1;
 }
+
+.triangle {
+    position: absolute;
+    border-right: 20px solid white;
+    border-top: 20px solid transparent;
+    width: 0;
+    height: 0;
+    bottom: 100%;
+    right: 0;
+  }
